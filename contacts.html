@@ -1,0 +1,15 @@
+---
+layout: page
+title: Contacts
+---
+
+call me
+{% include youtube.html IDsource="6N1X5XffuUA" %}
+
+<ul>
+    {% for portfolio in site.portfolio %}
+    <li>
+        {{portfolio.title}}
+    </li>
+    {% endfor %}
+</ul>
