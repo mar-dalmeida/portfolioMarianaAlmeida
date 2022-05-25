@@ -19,6 +19,15 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
+$--primary-300: #F6C293;
+$--primary-500: #E3933E;
+$--primary-700: #A96500;
+$--neutral-000: white;
+$--neutral-300: #d6d6d6;
+$--neutral-500: #757575;
+$--neutral-700: #434343;
+$--neutral-900: #161616;
+
 
 // Width of the content area
 $content-width:    800px !default;
