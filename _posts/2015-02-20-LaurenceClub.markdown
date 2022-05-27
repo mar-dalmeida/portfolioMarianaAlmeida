@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Laurence Club"
 ---
 Lawrence Club, a luxurious restaurant in Luanda Bay.

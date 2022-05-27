@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: post
 title:  "Truewind"
 ---
 Truewind is a software development company specialized in OutSystems.
@@ -13,3 +13,11 @@ Head of User Experience:
 Sérgio Brito
 
 {% include youtube.html IDsource="Bk6jT7DsbXk" %}
+
+![short gif showing previous logotype versus new one and some graphic compositions of the new brand](/assets/portfolio/truewind-1.gif)
+
+![Document layout for UX/UI Assessment](/assets/portfolio/truewind-2.jpg)
+
+![Mockup of a Truewind lanyard with an ID badge](/assets/portfolio/truewind-3.jpg)
+
+![Happy Holidays banner with a snow globe with a Santa inside a chimney](/assets/portfolio/truewind-4.gif)

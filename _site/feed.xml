@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-27T23:17:28+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mariana’s Website</title><subtitle>©2022 Mariana Almeida. All Rights Reserved.</subtitle><entry><title type="html">Truewind</title><link href="http://localhost:4000/Truewind.html" rel="alternate" type="text/html" title="Truewind" /><published>2019-09-01T00:00:00+01:00</published><updated>2019-09-01T00:00:00+01:00</updated><id>http://localhost:4000/Truewind</id><content type="html" xml:base="http://localhost:4000/Truewind.html"><![CDATA[<p>Truewind is a software development company specialized in OutSystems.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-27T23:32:39+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mariana’s Website</title><subtitle>©2022 Mariana Almeida. All Rights Reserved.</subtitle><entry><title type="html">Truewind</title><link href="http://localhost:4000/Truewind.html" rel="alternate" type="text/html" title="Truewind" /><published>2019-09-01T00:00:00+01:00</published><updated>2019-09-01T00:00:00+01:00</updated><id>http://localhost:4000/Truewind</id><content type="html" xml:base="http://localhost:4000/Truewind.html"><![CDATA[<p>Truewind is a software development company specialized in OutSystems.</p>
 
 <p>Here I was integrated in a Design team and was responsible for the rebranding and later on of the whole comunication of the company.</p>
 
@@ -14,7 +14,15 @@ Sérgio Brito</p>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/Bk6jT7DsbXk" frameborder="0" allowfullscreen=""></iframe>
           </div>          
     </body>
-</html>]]></content><author><name></name></author><summary type="html"><![CDATA[Truewind is a software development company specialized in OutSystems.]]></summary></entry><entry><title type="html">Laurence Club</title><link href="http://localhost:4000/LaurenceClub.html" rel="alternate" type="text/html" title="Laurence Club" /><published>2015-02-20T00:00:00+00:00</published><updated>2015-02-20T00:00:00+00:00</updated><id>http://localhost:4000/LaurenceClub</id><content type="html" xml:base="http://localhost:4000/LaurenceClub.html"><![CDATA[<p>Lawrence Club, a luxurious restaurant in Luanda Bay.</p>
+</html>
+
+<p><img src="/assets/portfolio/truewind-1.gif" alt="short gif showing previous logotype versus new one and some graphic compositions of the new brand" /></p>
+
+<p><img src="/assets/portfolio/truewind-2.jpg" alt="Document layout for UX/UI Assessment" /></p>
+
+<p><img src="/assets/portfolio/truewind-3.jpg" alt="Mockup of a Truewind lanyard with an ID badge" /></p>
+
+<p><img src="/assets/portfolio/truewind-4.gif" alt="Happy Holidays banner with a snow globe with a Santa inside a chimney" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Truewind is a software development company specialized in OutSystems.]]></summary></entry><entry><title type="html">Laurence Club</title><link href="http://localhost:4000/LaurenceClub.html" rel="alternate" type="text/html" title="Laurence Club" /><published>2015-02-20T00:00:00+00:00</published><updated>2015-02-20T00:00:00+00:00</updated><id>http://localhost:4000/LaurenceClub</id><content type="html" xml:base="http://localhost:4000/LaurenceClub.html"><![CDATA[<p>Lawrence Club, a luxurious restaurant in Luanda Bay.</p>
 
 <p><img src="/assets/portfolio/lawrence-1.png" alt="Stationary of Lawrence Club composed by a front letter, a business card and an envelope" /></p>
 
