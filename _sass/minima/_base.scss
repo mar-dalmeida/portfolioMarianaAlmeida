@@ -15,8 +15,8 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  color: $text-color;
-  background-color: $background-color;
+  color: $--neutral-900;
+  background-color: $--neutral-000;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
      -moz-font-feature-settings: "kern" 1;
@@ -134,20 +134,22 @@ h5 {
   color: $--neutral-700;
   margin: 0;
 }
+
+
+
 /**
  * Links
  */
 a {
-  color: $brand-color;
+  color: $--primary-500;
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    color: $--neutral-500;
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    color: $--primary-700;
   }
 
   .social-media-list &:hover {
@@ -160,23 +162,6 @@ a {
 }
 
 
-/**
- * Blockquotes
- */
-blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
-  padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
-
-  > :last-child {
-    margin-bottom: 0;
-  }
-}
-
-
 
 /**
  * Code formatting
@@ -184,7 +169,7 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
+  border: 1px solid $--neutral-300;
   border-radius: 3px;
   background-color: #eef;
 }
@@ -247,7 +232,7 @@ pre {
     width: 16px;
     height: 16px;
     display: inline-block;
-    fill: #{$grey-color};
+    fill: $--neutral-700;
     padding-right: 5px;
     vertical-align: text-top;
 }
@@ -269,10 +254,10 @@ table {
   text-align: $table-text-align;
   color: lighten($text-color, 18%);
   border-collapse: collapse;
-  border: 1px solid $grey-color-light;
+  border: 1px solid $--neutral-300;
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 6%);
+      background-color: $--primary-300;
     }
   }
   th, td {

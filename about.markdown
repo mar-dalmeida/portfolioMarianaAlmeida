@@ -9,6 +9,8 @@ Há cerca de 2 anos, integrei a equipa de Design px& Digital Experience, da True
 
 Esta experiência tem vindo a enriquecer-me a vários níveis e tem moldado a minha evolução como Designer, evolução que foi celebrada com um convite para integrar na totalidade a equipa de UX.
 
-{% for about in site.data.frutas %}
-{{ about.fruta }}, {{ about.cor }}
+Some of my hobbies are:
+
+{% for about in site.data.hobbies %}
+{{ about.hobby }}
 {% endfor %}

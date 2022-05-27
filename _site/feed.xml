@@ -1,33 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-26T22:56:46+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mariana’s Website</title><subtitle>©2021 Mariana Almeida. All Rights Reserved.</subtitle><entry><title type="html">Laurence Club</title><link href="http://localhost:4000/LaurenceClub.html" rel="alternate" type="text/html" title="Laurence Club" /><published>2022-03-31T00:00:00+01:00</published><updated>2022-03-31T00:00:00+01:00</updated><id>http://localhost:4000/LaurenceClub</id><content type="html" xml:base="http://localhost:4000/LaurenceClub.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-27T20:52:51+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Mariana’s Website</title><subtitle>©2022 Mariana Almeida. All Rights Reserved.</subtitle><entry><title type="html">Truewind</title><link href="http://localhost:4000/Truewind.html" rel="alternate" type="text/html" title="Truewind" /><published>2019-09-01T00:00:00+01:00</published><updated>2019-09-01T00:00:00+01:00</updated><id>http://localhost:4000/Truewind</id><content type="html" xml:base="http://localhost:4000/Truewind.html"><![CDATA[<p>Truewind is a software development company specialized in OutSystems.</p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
+<p>Here I was integrated in a Design team and was responsible for the rebranding and later on of the whole comunication of the company.</p>
 
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p>Design &amp; Digital Experience Director:
+Paulo Mártires</p>
 
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>Head of User Experience:
+Sérgio Brito</p>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<html lang="en">
+    <body class="page">
+        <div class="spacing youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Bk6jT7DsbXk" frameborder="0" allowfullscreen=""></iframe>
+          </div>          
+    </body>
+</html>]]></content><author><name></name></author><summary type="html"><![CDATA[Truewind is a software development company specialized in OutSystems.]]></summary></entry><entry><title type="html">Laurence Club</title><link href="http://localhost:4000/LaurenceClub.html" rel="alternate" type="text/html" title="Laurence Club" /><published>2015-02-20T00:00:00+00:00</published><updated>2015-02-20T00:00:00+00:00</updated><id>http://localhost:4000/LaurenceClub</id><content type="html" xml:base="http://localhost:4000/LaurenceClub.html"><![CDATA[<p>Lawrence Club, a luxurious restaurant in Luanda Bay.</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p><img src="/assets/portfolio/lawrence-1.png" alt="Stationary of Lawrence Club composed by a front letter, a business card and an envelope" /></p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Truewind</title><link href="http://localhost:4000/Truewind.html" rel="alternate" type="text/html" title="Truewind" /><published>2022-03-31T00:00:00+01:00</published><updated>2022-03-31T00:00:00+01:00</updated><id>http://localhost:4000/Truewind</id><content type="html" xml:base="http://localhost:4000/Truewind.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p><img src="/assets/portfolio/lawrence-2.png" alt="Horizontal and vertical version of Lawrence's business card" /></p>
 
-<p>Jekyll requires blog post files to be named according to the following format:</p>
-
-<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
-
-<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
-
-<p>Jekyll also offers powerful support for code snippets:</p>
-
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
-
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p><img src="/assets/portfolio/lawrence-3.png" alt="Invite card layout" /></p>]]></content><author><name></name></author><summary type="html"><![CDATA[Lawrence Club, a luxurious restaurant in Luanda Bay.]]></summary></entry></feed>

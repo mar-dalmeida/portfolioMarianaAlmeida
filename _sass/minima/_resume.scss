@@ -1,27 +1,24 @@
-/**
- * Site header
- */
- button {
+button {
   margin: 10px 0;
   padding: 5px 25px;
   width: fit-content;
   cursor: pointer;
-  background-color: white;
+  background-color: $--neutral-000;
   border: 2px solid $--neutral-700;
   border-radius: 25px;
+
+  &:hover {
+    background-color: $--neutral-000;
+    border: 2px solid $--primary-500;
+    box-shadow: 2px 2px 15px -2px $--primary-500;
+
+    h5 {
+      color: $--primary-700;
+    }
+  }
 }
 
-button:hover {
-  background-color: $--neutral-000;
-  border: 2px solid $--primary-500;
-  box-shadow: 2px 2px 15px -2px $--primary-500
-}
-
-button:hover h5 {
-  color: $--primary-700;
-}
-
-.resume h2{
+.resume h2 {
   padding: 3rem 0 1rem;
 }
 
@@ -52,7 +49,7 @@ ul.skills {
   display: inline;
 }
 
-.skill-bar { 
+.skill-bar {
   position: absolute;
   top: 6px;
   left: 60%;
@@ -61,37 +58,35 @@ ul.skills {
   width: 100%;
   background: $--neutral-300;
   border-radius: 1.563rem;
-}
 
-.skill-bar > span {
-  display: block;
-  height: 100%;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
-  background-color: $--primary-500;
-  position: relative;
-  overflow: hidden;
+  > span {
+    display: block;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: $--primary-500;
+    position: relative;
+    overflow: hidden;
+  }
 }
 
 ul.skills :first-child .skill-bar > span {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-}  
+}
 
 /* Resume - tablet & desktop */
 @media screen and (min-width: 740px) {
-
   button {
-      position: absolute;
-      right: 0px;
-      top: 64px;
+    position: absolute;
+    right: 0px;
+    top: 64px;
   }
 
   .resume {
-      display: grid;
-      grid-template-columns: repeat(auto-fill,minmax(47%, 1fr));
-      column-gap: 6%;
-      row-gap: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));
+    column-gap: 6%;
+    row-gap: 0;
   }
-
 }
