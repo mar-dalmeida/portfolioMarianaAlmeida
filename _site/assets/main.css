@@ -2,7 +2,7 @@
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
 /** Basic styling */
-body { font: 400 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #111; background-color: #fdfdfd; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
+body { font: 400 16px/1.5 "Poppins", Tahoma, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; color: #161616; background-color: white; -webkit-text-size-adjust: 100%; -webkit-font-feature-settings: "kern" 1; -moz-font-feature-settings: "kern" 1; -o-font-feature-settings: "kern" 1; font-feature-settings: "kern" 1; font-kerning: normal; display: flex; min-height: 100vh; flex-direction: column; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -24,26 +24,29 @@ ul, ol { margin-left: 30px; }
 li > ul, li > ol { margin-bottom: 0; }
 
 /** Headings */
-h1, h2, h3, h4, h5, h6 { font-weight: 400; }
+h1 { font-size: 3rem; font-weight: 700; line-height: 4rem; color: #161616; margin: 0; }
+
+h2 { font-size: 1.5rem; font-weight: 700; line-height: 2.1rem; color: #161616; margin: 0; padding: 2rem 0 0.5rem; }
+
+h3 { font-size: 1.125rem; font-weight: 700; line-height: 2rem; color: #161616; padding-bottom: 0.5rem; margin: 0; }
+
+h4 { font-size: 1rem; font-weight: 700; line-height: 1.6rem; color: #434343; margin: 0; }
+
+h5 { font-size: 1rem; font-weight: 500; line-height: 1.6rem; color: #434343; margin: 0; }
 
 /** Links */
-a { color: #2a7ae2; text-decoration: none; }
+a { color: #E3933E; text-decoration: none; }
 
-a:visited { color: #1756a9; }
+a:visited { color: #757575; }
 
-a:hover { color: #111; text-decoration: underline; }
+a:hover { color: #A96500; }
 
 .social-media-list a:hover { text-decoration: none; }
 
 .social-media-list a:hover .username { text-decoration: underline; }
 
-/** Blockquotes */
-blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }
-
-blockquote > :last-child { margin-bottom: 0; }
-
 /** Code formatting */
-pre, code { font-size: 15px; border: 1px solid #e8e8e8; border-radius: 3px; background-color: #eef; }
+pre, code { font-size: 15px; border: 1px solid #d6d6d6; border-radius: 3px; background-color: #eef; }
 
 code { padding: 1px 5px; }
 
@@ -60,14 +63,14 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .footer-col-wrapper:after, .wrapper:after { content: ""; display: table; clear: both; }
 
 /** Icons */
-.svg-icon { width: 16px; height: 16px; display: inline-block; fill: #828282; padding-right: 5px; vertical-align: text-top; }
+.svg-icon { width: 16px; height: 16px; display: inline-block; fill: #434343; padding-right: 5px; vertical-align: text-top; }
 
 .social-media-list li + li { padding-top: 5px; }
 
 /** Tables */
-table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: collapse; border: 1px solid #e8e8e8; }
+table { margin-bottom: 30px; width: 100%; text-align: left; color: #3f3f3f; border-collapse: collapse; border: 1px solid #d6d6d6; }
 
-table tr:nth-child(even) { background-color: #f7f7f7; }
+table tr:nth-child(even) { background-color: #F6C293; }
 
 table th, table td { padding: 10px 15px; }
 
@@ -273,5 +276,34 @@ table td { border: 1px solid #e8e8e8; }
 .highlight .vi { color: #008080; }
 
 .highlight .il { color: #099; }
+
+button { margin: 10px 0; padding: 5px 25px; width: fit-content; cursor: pointer; background-color: white; border: 2px solid #434343; border-radius: 25px; }
+
+button:hover { background-color: white; border: 2px solid #E3933E; box-shadow: 2px 2px 15px -2px #E3933E; }
+
+button:hover h5 { color: #A96500; }
+
+.resume h2 { padding: 3rem 0 1rem; }
+
+.job { padding: 1.5rem 0 0; }
+
+.job-description { padding: 0 0 0.7rem; margin: 0; }
+
+.school { padding: 1.5rem 0 0; }
+
+.li-container { position: relative; }
+
+ul.skills { margin: 0; padding: 0; list-style: none; }
+
+.skills li { display: inline; }
+
+.skill-bar { position: absolute; top: 6px; left: 60%; height: 0.75rem; max-width: 40%; width: 100%; background: #d6d6d6; border-radius: 1.563rem; }
+
+.skill-bar > span { display: block; height: 100%; border-top-left-radius: 20px; border-bottom-left-radius: 20px; background-color: #E3933E; position: relative; overflow: hidden; }
+
+ul.skills :first-child .skill-bar > span { border-top-right-radius: 20px; border-bottom-right-radius: 20px; }
+
+/* Resume - tablet & desktop */
+@media screen and (min-width: 740px) { button { position: absolute; right: 0px; top: 64px; } .resume { display: grid; grid-template-columns: repeat(auto-fill, minmax(47%, 1fr)); column-gap: 6%; row-gap: 0; } }
 
 /*# sourceMappingURL=main.css.map */

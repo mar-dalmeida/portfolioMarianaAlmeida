@@ -3,19 +3,14 @@ layout: page
 title: About
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+O meu nome é Mariana Almeida, sou licenciada em Design pela Faculdade de Arquitetura da Universidade de Lisboa e, de momento, exerço a função de Junior UX Designer na Truewind.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Há cerca de 2 anos, integrei a equipa de Design px& Digital Experience, da Truewind, onde abracei o projecto de rebranding da marca, sendo responsável por desenvolver e lançar a nova identidade gráfica da empresa. A proximidade dos núcleos de trabalho de Design, em que estava integrada, e de UX permitiu-me ter acesso a formação e a uma visão privilegiada do trabalho de bastidores de um UX Designer,desde o processo de pesquisa, desenvolvimento de UI ou testes de usabilidade até chegarmos ao produto final. Estar inserida numa equipa de alta-performance, rodeada por profissionais de topo distinguidos com prémios de Usabilidade e Excelência no desenvolvimento de aplicações em OutSystems, representa uma fonte de inspiração.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+Esta experiência tem vindo a enriquecer-me a vários níveis e tem moldado a minha evolução como Designer, evolução que foi celebrada com um convite para integrar na totalidade a equipa de UX.
 
+Some of my hobbies are:
 
-[jekyll-organization]: https://github.com/jekyll
-
-{% for about in site.data.frutas %}
-{{ about.fruta }}, {{ about.cor }}
+{% for about in site.data.hobbies %}
+{{ about.hobby }}
 {% endfor %}

@@ -2,7 +2,7 @@
 
 // Define defaults for each variable.
 
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+$base-font-family: "Poppins", Tahoma, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
 $base-font-size:   16px !default;
 $base-font-weight: 400 !default;
 $small-font-size:  $base-font-size * 0.875 !default;
@@ -19,6 +19,15 @@ $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
 $table-text-align: left !default;
+$--primary-300: #F6C293;
+$--primary-500: #E3933E;
+$--primary-700: #A96500;
+$--neutral-000: white;
+$--neutral-300: #d6d6d6;
+$--neutral-500: #757575;
+$--neutral-700: #434343;
+$--neutral-900: #161616;
+
 
 // Width of the content area
 $content-width:    800px !default;
@@ -47,5 +56,6 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/syntax-highlighting",
+  "minima/resume"
 ;
